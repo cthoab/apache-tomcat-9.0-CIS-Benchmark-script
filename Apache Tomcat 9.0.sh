@@ -62,7 +62,7 @@ $CATALINA_HOME/webapps/manage >> $a
 
 echo -e "\n==========================================================================================\n" >> $a
 echo -e "\n1.2Disable Unused Connectors\n" >> $a
-grep “Connector” $CATALINA_HOME/conf/server.xml >> $a
+grep ï¿½Connectorï¿½ $CATALINA_HOME/conf/server.xml >> $a
 
 echo -e "\n==========================================================================================\n" >> $a
 echo -e "\n2.1 Alter the Advertised server.info String\n" >> $a
@@ -105,7 +105,7 @@ echo -e "\nManual Test Required\n" >> $a
 echo -e "\n==========================================================================================\n" >> $a
 echo -e "\n3.1 Set a nondeterministic Shutdown command value \n" >> $a
 cd $CATALINA_HOME/conf
-grep 'shutdown[[:space:]]*=[[:space:]]*"SHUTDOWN"' server.xml</span> >> $a
+grep 'shutdown[[:space:]]*=[[:space:]]*"SHUTDOWN"' server.xml >> $a
 
 echo -e "\n==========================================================================================\n" >> $a
 echo -e "\n3.2 Disable the Shutdown port \n" >> $a
