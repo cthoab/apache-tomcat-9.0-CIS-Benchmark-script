@@ -56,7 +56,7 @@ echo -e "\n=====================================================================
 echo -e "\n1.1 Remove extraneous files and directories\n" >> $a 
 ls -l $CATALINA_HOME/webapps/examples \
 $CATALINA_HOME/webapps/docs \ 
-$CATALINA_HOME/webappsOOT \
+$CATALINA_HOME/webapps/ROOT \
 $CATALINA_HOME/webapps/host-manager \
 $CATALINA_HOME/webapps/manage >> $a 
 
